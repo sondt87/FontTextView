@@ -1,32 +1,33 @@
-package son.dt.widget;
+package com.gzonevn.sondt.fonttextview;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.CheckedTextView;
+import android.widget.TextView;
+
 
 /**
- * Created by Nov on 6/26/13.
+ * TODO: document your custom view class.
  */
-public class FontCheckedTextView extends CheckedTextView {
+public class FontCheckBox extends TextView {
     private String font;
 
-    public FontCheckedTextView(Context context) {
+    public FontCheckBox(Context context) {
         super(context);
         init(null, 0);
     }
 
-    public FontCheckedTextView(Context context, AttributeSet attrs) {
+    public FontCheckBox(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(attrs, 0);
     }
 
-    public FontCheckedTextView(Context context, AttributeSet attrs, int defStyle) {
+    public FontCheckBox(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init(attrs, defStyle);
     }
 
     private void init(AttributeSet attrs, int defStyle) {
-        setFont(new FontHelper().loadFont(this,attrs,defStyle));
+       setFont(new FontHelper().loadFont(this, attrs, defStyle));
     }
 
 

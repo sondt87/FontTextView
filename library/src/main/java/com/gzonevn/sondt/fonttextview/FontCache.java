@@ -1,4 +1,4 @@
-package son.dt.widget;
+package com.gzonevn.sondt.fonttextview;
 
 import android.content.Context;
 import android.graphics.Typeface;

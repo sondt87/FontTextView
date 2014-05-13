@@ -9,8 +9,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="son.dt.widget.example.MainActivity">
 
-    <son.dt.widget.FontTextView
-        app:font="fonts/OpenSans-Bold.ttf"
+    <com.gzonevn.sondt.fonttextview.FontTextView
+
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
